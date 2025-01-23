@@ -1,0 +1,14 @@
+{
+    "name": "chili-three",
+    "version": "0.4.0",
+    "description": "",
+    "main": "src/index.ts",
+    "devDependencies": {
+        "@types/three": "0.172.0",
+        "camera-controls": "^2.9.0",
+        "chili-core": "*",
+        "chili-vis": "*",
+        "three": "0.172.0",
+        "three-mesh-bvh": "0.8.3"
+    }
+}

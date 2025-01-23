@@ -1,0 +1,42 @@
+.normal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4px;
+    margin: 4px;
+    border-radius: 4px;
+}
+
+.normal:hover {
+    background-color: var(--hover-background-color);
+}
+
+.small {
+    display: flex;
+    flex-direction: row;
+    justify-items: top;
+    justify-content: space-between;
+    padding: 4px;
+    margin: 4px;
+}
+
+.small:hover {
+    background-color: var(--hover-background-color);
+}
+
+.buttonText {
+    color: var(--foreground-color);
+    font-size: 12px;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 4px;
+}
+
+.smallIcon {
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+}
